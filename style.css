@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 1px solid whitesmoke;
+  border-width: 4px;
+  font-weight: 700;
+}
+
+.navbar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: linear-gradient(45deg, #f5f410, #9e9d16);
+  -webkit-box-shadow: 8px 0px 8px 0px black;
+          box-shadow: 8px 0px 8px 0px black;
+  height: 103px;
+}
+
+.loGo {
+  width: 103px;
+}
+
+.loGo img {
+  width: 100%;
+}
+
+.nav-items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 123px;
+}
+
+.nav-items li {
+  margin: 0 23px;
+}
+
+.nav-items a {
+  color: white;
+  font-size: 21px;
+}
+
+.nav-items a:hover {
+  border-bottom: 1px solid white;
+}
+
+.togglemenu a i {
+  display: none;
+}
+
+.flightChecking {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 59px 100px;
+}
+
+.flightChecking h2 {
+  margin-bottom: 49px;
+  font-size: 36px;
+}
+
+.flightChecking-container {
+  height: 300px;
+  width: 1067px;
+  background: linear-gradient(45deg, #f5f410, #9e9d16);
+  -webkit-box-shadow: 0px 0px 12px -3px black;
+          box-shadow: 0px 0px 12px -3px black;
+  border-radius: 52px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flightChecking-container input {
+  border-radius: 11px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 6px 0px black;
+          box-shadow: 0px 0px 6px 0px black;
+}
+
+.flightChecking-container button {
+  height: 30px;
+  border: none;
+  width: 127px;
+  margin-left: 49px;
+  -webkit-box-shadow: 0px 3px 6px 0px black;
+          box-shadow: 0px 3px 6px 0px black;
+}
+
+.intro {
+  height: 396px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 47px 0;
+}
+
+.intro h2 {
+  font-size: 91px;
+}
+
+.intro p {
+  width: 1154px;
+  line-height: 1.4;
+  font-size: 31px;
+}
+
+.intro button {
+  margin-top: 43px;
+  width: 269px;
+  height: 75px;
+  font-size: 47px;
+  border: none;
+  border-radius: 52px;
+  -webkit-box-shadow: 0px 3px 6px 0px black;
+          box-shadow: 0px 3px 6px 0px black;
+}
+
+.intro button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: #9e9d16;
+  color: white;
+}
+
+.form-submit {
+  height: 600px;
+  background: linear-gradient(45deg, #f5f410, #9e9d16);
+}
+
+.form-submit form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 44px;
+}
+
+.form-submit form h2 {
+  font-size: 60px;
+}
+
+.form-submit form input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 10px 0px black;
+          box-shadow: 0px 3px 10px 0px black;
+}
+
+.form-name-number {
+  margin: 44px auto;
+}
+
+#form-email {
+  width: 510px;
+  margin-bottom: 44px;
+}
+
+#form-message {
+  height: 120px;
+  width: 510px;
+}
+
+.form-btn {
+  margin-top: 44px;
+  width: 154px;
+  height: 49px;
+  border: none;
+  border-radius: 7px;
+  font-size: 21px;
+  -webkit-box-shadow: 0px 1px 7px 0px black;
+          box-shadow: 0px 1px 7px 0px black;
+}
+
+.form-btn:hover {
+  background-color: #49490f;
+}
+
+.footer {
+  height: 47px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-nav {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-nav p {
+  margin-right: 56px;
+}
+
+.footer-nav ul li {
+  margin: 0 10px;
+}
+
+.social-icons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-icons a {
+  margin: 0 7px;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav-items {
+    margin-right: 0%;
+  }
+  #nav-items {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 103px;
+    background: linear-gradient(45deg, #f5f410, #9e9d16);
+    height: 100%;
+    width: 100%;
+  }
+  .nav-items li {
+    padding: 30px 8px;
+    text-align: center;
+  }
+  .togglemenu a i {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 31px;
+    color: white;
+  }
+  .flightChecking h2 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .flightChecking-container {
+    height: 240px;
+    width: 416px;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    padding: 12px 13px 0 13px;
+    border-radius: 10px;
+  }
+  .flightChecking-container form input {
+    margin: 24px 20px;
+  }
+  .flightChecking-container form button {
+    margin-left: 152px;
+  }
+  .intro h2 {
+    font-size: 4em;
+  }
+  .intro p {
+    width: 398px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .intro button {
+    width: 201px;
+    height: 58px;
+    font-size: 33px;
+  }
+  .form-submit form h2 {
+    font-size: 3em;
+  }
+  .form-submit form input {
+    margin: 0 8px;
+    width: 214px;
+  }
+  #form-email {
+    width: 455px;
+  }
+  #form-message {
+    width: 455px;
+  }
+  .footer-nav {
+    margin-top: 19px;
+  }
+  .footer-nav p {
+    font-size: 13px;
+    margin-left: 24px;
+    margin-right: 0;
+  }
+  .footer ul li a {
+    font-size: 13px;
+  }
+  .footer-nav ul li {
+    margin: 0 26px;
+  }
+  .social-icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 70px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
