@@ -199,7 +199,7 @@ a {
     padding-top: 44px;
     width: 741px;
     height: 529px;
-    border-radius: 17px;    
+    border-radius: 17px;
   }
 }
 
@@ -292,9 +292,10 @@ a {
 @media (max-width: 600px) {
 
 
-  .loGo{
+  .loGo {
     margin-left: 0px;
   }
+
   .navbar {
     justify-content: center;
   }
@@ -336,14 +337,14 @@ a {
 
   .flightChecking {
     h2 {
-      font-weight: 700;
-      font-size: 5vw;
-  
+      font-weight: 800;
+      font-size: 17px;
+
     }
   }
 
   .flightChecking-container {
-    height:377px;
+    height: 377px;
     width: 305px;
     align-items: unset;
     padding: 12px 13px 0 13px;
@@ -360,8 +361,8 @@ a {
     }
   }
 
-  .flightChecking-container{
-    form{
+  .flightChecking-container {
+    form {
       text-align: center;
     }
   }
@@ -396,8 +397,8 @@ a {
     }
   }
 
-  .form-submit{
-    form{
+  .form-submit {
+    form {
       width: 305px;
       height: 508px;
     }
