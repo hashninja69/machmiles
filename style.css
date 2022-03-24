@@ -170,7 +170,7 @@ a {
 .intro button:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  background-color: #9e9d16;
+  background: linear-gradient(15deg, #f1f000, #ffc107);
   color: white;
 }
 
@@ -272,7 +272,7 @@ a {
   color: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .loGo {
     margin-left: 0px;
   }
@@ -310,7 +310,7 @@ a {
   }
   .flightChecking h2 {
     font-weight: 800;
-    font-size: 14px;
+    font-size: 7vw;
   }
   .flightChecking-container {
     height: 377px;
@@ -366,14 +366,11 @@ a {
   }
   .footer-nav p {
     font-size: 13px;
-    margin-left: 9px;
+    margin-left: 5px;
     margin-right: 0;
   }
   .footer ul li a {
     font-size: 2.9vw;
-  }
-  .footer-nav ul li {
-    margin: 0 0px;
   }
   .social-icons {
     -webkit-box-pack: center;
