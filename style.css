@@ -273,6 +273,9 @@ a {
 }
 
 @media (max-width: 600px) {
+  .loGo {
+    margin-left: 0px;
+  }
   .navbar {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
