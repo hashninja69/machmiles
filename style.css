@@ -5,6 +5,17 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body::before {
+  content: "";
+  background: url("./images/back.png") no-repeat center center/cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 67vw;
+  height: 100vh;
+  z-index: -1;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +40,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: linear-gradient(22deg, #f1f000, #e65100);
   -webkit-box-shadow: 8px 0px 8px 0px black;
           box-shadow: 8px 0px 8px 0px black;
   height: 103px;
@@ -95,7 +105,6 @@ a {
 .flightChecking-container {
   height: 300px;
   width: 1067px;
-  background: linear-gradient(22deg, #f1f000, #e65100);
   -webkit-box-shadow: 0px 0px 12px -3px black;
           box-shadow: 0px 0px 12px -3px black;
   border-radius: 52px;
@@ -113,6 +122,8 @@ a {
   border: none;
   text-align: center;
   border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 12px -3px black;
+          box-shadow: 0px 0px 12px -3px black;
 }
 
 .flightChecking-container button {
@@ -277,6 +288,11 @@ a {
 }
 
 @media (max-width: 500px) {
+  body::before {
+    content: "";
+    width: 173vw;
+    left: 0;
+  }
   .loGo {
     margin-left: 0px;
   }
@@ -293,7 +309,7 @@ a {
     position: absolute;
     left: 0px;
     top: 103px;
-    background: linear-gradient(15deg, #f1f000, #ffc107);
+    background: #f9a826;
     height: 100%;
     width: 100%;
   }
@@ -307,7 +323,7 @@ a {
     position: absolute;
     right: 25px;
     top: 31px;
-    color: white;
+    color: #d0c5c5;
   }
   .flightChecking {
     padding: 59px 0px;
