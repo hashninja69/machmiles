@@ -329,7 +329,7 @@ a {
     font-size: 4em;
   }
   .intro p {
-    width: 398px;
+    width: 357px;
     font-size: 18px;
     text-align: center;
   }
@@ -339,7 +339,7 @@ a {
     font-size: 33px;
   }
   .form-submit form {
-    width: 383px;
+    width: 357px;
     height: 508px;
   }
   .form-submit form h2 {
@@ -350,10 +350,10 @@ a {
     width: 174px;
   }
   #form-email {
-    width: 373px;
+    width: 334px;
   }
   #form-message {
-    width: 373px;
+    width: 334px;
   }
   .footer-nav {
     margin-top: 19px;
@@ -364,7 +364,7 @@ a {
     margin-right: 0;
   }
   .footer ul li a {
-    font-size: 13px;
+    font-size: 2.9vw;
   }
   .footer-nav ul li {
     margin: 0 5px;
