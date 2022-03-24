@@ -293,9 +293,10 @@ a {
 @media (max-width: 700px) {
   body::before {
     content: "";
-    width: 149vw;
+    background: url(./images/mobileBack.png) no-repeat center center/cover;
+    width: 92vw;
     left: 22px;
-    top: 35px;
+    top: 37px;
   }
   .loGo {
     margin-left: 0px;

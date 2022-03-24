@@ -8,4 +8,3 @@ function toggle() {
     }
 }
 
-// console.log("com");
