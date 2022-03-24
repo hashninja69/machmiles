@@ -305,6 +305,9 @@ a {
     top: 31px;
     color: white;
   }
+  .flightChecking {
+    padding: 59px 0px;
+  }
   .flightChecking h2 {
     font-weight: 800;
     font-size: 14px;
