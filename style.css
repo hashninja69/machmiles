@@ -308,7 +308,7 @@ a {
   }
   .flightChecking-container {
     height: 377px;
-    width: 357px;
+    width: 305px;
     -webkit-box-align: unset;
         -ms-flex-align: unset;
             align-items: unset;
@@ -329,7 +329,7 @@ a {
     font-size: 4em;
   }
   .intro p {
-    width: 357px;
+    width: 305px;
     font-size: 18px;
     text-align: center;
   }
@@ -339,35 +339,35 @@ a {
     font-size: 33px;
   }
   .form-submit form {
-    width: 357px;
+    width: 305px;
     height: 508px;
   }
   .form-submit form h2 {
-    font-size: 9vw;
+    font-size: 8vw;
   }
   .form-submit form input {
     margin: 0 8px;
-    width: 174px;
+    width: 132px;
   }
   #form-email {
-    width: 334px;
+    width: 280px;
   }
   #form-message {
-    width: 334px;
+    width: 280px;
   }
   .footer-nav {
     margin-top: 19px;
   }
   .footer-nav p {
     font-size: 13px;
-    margin-left: 24px;
+    margin-left: 9px;
     margin-right: 0;
   }
   .footer ul li a {
     font-size: 2.9vw;
   }
   .footer-nav ul li {
-    margin: 0 5px;
+    margin: 0 0px;
   }
   .social-icons {
     -webkit-box-pack: center;
