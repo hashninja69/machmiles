@@ -12,7 +12,7 @@ $primary-color: linear-gradient(15deg, #f1f000, #ffc107);
 
 body::before{
   content: "";
-  background: url('./images/back.png')  no-repeat center center/cover;
+  // background: url('./images/back.png')  no-repeat center center/cover;
   position: absolute;
   filter: opacity(0.9) hue-rotate(28deg);
   top: 56px;
@@ -332,7 +332,7 @@ a {
 
   body::before{
     content: "";
-    background: url(./images/mobileBack.png) no-repeat center center/cover;
+    // background: url(./images/mobileBack.png) no-repeat center center/cover;
     width: 92vw;
     left: 22px;
     top: 37px;
