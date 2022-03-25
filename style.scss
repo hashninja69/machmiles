@@ -14,7 +14,7 @@ body::before{
   content: "";
   background: url('./images/back.png')  no-repeat center center/cover;
   position: absolute;
- 
+  filter: opacity(0.9) hue-rotate(28deg);
   top: 56px;
   right: 0px;
   width: 67vw;
